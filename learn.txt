@@ -1,0 +1,8 @@
+ssh-keygen -t rsa -C "自己正确的邮箱地址"
+        //之后的几步全部点回车，之后会在电脑相应位置生成.ssh文件
+        ，里面包含当前电脑的私钥
+        （如果代码需要提交到github，需要在相应的github中设置sshkey）
+git add 文件名                  
+        //将文件提交到暂存区
+git commit -m "提交的description"
+        //将暂存区的文件提交到当前分支
